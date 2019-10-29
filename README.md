@@ -23,6 +23,32 @@ $ build
 ### Using Pre-Built Versions
 You can checkout the build directory, where you can find the latest built versions of this Cipher Software
 
+##How to use
+```bash
+# Encrypt a text line
+$ java -jar Cipher_vx.x.jar encrypt text
+# Plaintext: (Enter some plaintext here)
+# Encryption Level(1-2): (Enter 1 or 2 here)
+# [Encrypted line comes here]
+
+# Decrypt a text line
+$ java -jar Cipher_vx.x.jar decrypt text
+# Encrypted Note: (Enter the encrypted line here)
+# [Decrypted line comes here]
+
+#Encrypt a file
+$ java -jar Cipher_vx.x.jar encrypt file
+# File Name: (Enter the file name here, must be in the same directory with the jar)
+# Encryption Level(1-2): (Enter 1 or 2 here)
+# Done!
+
+#Decrypt a file
+$ java -jar Cipher_vx.x.jar decrypt file
+# Encrypted File: (Enter the file name here, must be in the same directory with the jar)
+# Done!
+```
+
+
 ## Collaborate
 Anyone who wants to collaborate on this project can mail me (blanc.leedom@protonmail.com).
 

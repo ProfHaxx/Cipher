@@ -17,7 +17,7 @@ public class Crypt {
         if(args.length == 0 || args[0].equals("help")) {
             System.out.println("Usage: ");
             System.out.println("java -jar Cipher encrypt file/text");
-            System.out.println("java -jar Cipher decrypt");
+            System.out.println("java -jar Cipher decrypt file/text");
         } else if(args[0].equals("encrypt")) {
             if(args[1].equals("text")) {
                 System.out.print("Plain Text: ");
@@ -42,7 +42,7 @@ public class Crypt {
                 System.out.print("Encrypted File: ");
                 String encrypted = scanner.nextLine();
                 decryptFile(encrypted);
-                System.out.println("Done");
+                System.out.println("Done!");
             }
         }
     }
