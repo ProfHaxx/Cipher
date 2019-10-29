@@ -1,5 +1,4 @@
-#Cipher Project
----------------
+# Cipher Project
 ## Introduction
 This simple software will allow you to encrypt strings and files using very simple algorithms to offer basic security. This project is based on demand. If someone wants me to update the code or simply make the encryption safer, e.g. by using better algorithms or by optimizing encryption / decryption time.
 
@@ -23,7 +22,7 @@ $ build
 ### Using Pre-Built Versions
 You can checkout the build directory, where you can find the latest built versions of this Cipher Software
 
-##How to use
+## How to use
 ```bash
 # Encrypt a text line
 $ java -jar Cipher_vx.x.jar encrypt text
