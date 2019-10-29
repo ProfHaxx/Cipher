@@ -53,5 +53,7 @@ Anyone who wants to collaborate on this project can mail me (blanc.leedom@proton
 
 ## Future Plans
 Program a GUI for Cipher
+
 Include DES-Algorithm
+
 (Possibly) Include AES-Algorithm for password-hashing purposes.
